@@ -1,0 +1,118 @@
+body,
+html {
+    margin:0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+#title {
+    color: white;
+    font-size: 4em;
+}
+
+#cool-line {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to left,rgb(27,27,27), white, rgb(27,27,27));
+}
+
+h1{
+    color: white;
+
+    display: flex;
+   justify-content: center;
+
+}
+
+#can-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: relative;
+
+    height: 8em;
+    width: 8em;
+    background-color: lightblue;
+    float: left;
+
+    margin: 25px;
+
+    border-radius: 1em;
+    border: solid 2px black;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px
+}
+
+/* ================= OPCOES ============== */
+
+/* Adicionar as novas classes para as duas novas opções */
+
+.feijao{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fbaked-beans-on-a-white-background-picture-id171366962%3Fk%3D6%26m%3D171366962%26s%3D612x612%26w%3D0%26h%3DKosGTnllHF1ISuD_aI28QnuBhDa3IQKBMUGjvW4BIy0%3D&f=1&nofb=1&ipt=f02e30c997d2d2bcefb535a66c7f621fa04f013bd471dd435220113a27b489c7&ipo=images);
+    background-position: center;
+}
+
+.milho {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fcorn-on-the-cob-picture-id172143292&f=1&nofb=1&ipt=652663db367157d08f630a17b1ab4b4c7540121290b61d1824e8935c97e55b09&ipo=images);
+    background-position: center;
+}
+
+.ervilha {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fgreen-peas-picture-id157404776&f=1&nofb=1&ipt=ea23ea24ead511081761f7cd00ad0507c41239b208b960db4e1d8bfe017a2662&ipo=images);
+    background-position: center;
+}
+
+.sardinhas {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Ffresh-sardines-picture-id479684840&f=1&nofb=1&ipt=aae616a841b22c0ba62ce615b30623390af044260513b96f94f29b5d9a426777&ipo=images);
+    background-position: center;
+}
+
+.pessego {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.freeimages.com%2Fimages%2Flarge-previews%2F88b%2Fpeach-1459224.jpg&f=1&nofb=1&ipt=22444d85e3bd04c32b0dd6e348266b9b486a541f64e5e539ed7c5ee7d9feb31e&ipo=images);
+    background-position: center;
+}
+
+.sushi {
+    background-image: url(https://img.freepik.com/fotos-gratis/prato-de-frutos-do-mar-frescos-com-sashimi-de-sushi-e-wasabi-gerado-por-ia_188544-14075.jpg?w=2000);
+    background-position: center;
+}
+
+.nhoque {
+    background-image: url(https://scfoods.fbitsstatic.net/img/p/nhoque-ao-pomodoro-cong-330g-72047/258696.jpg?w=800&h=800&v=no-change&qs=ignore);
+    background-position: center;
+}
+
+
